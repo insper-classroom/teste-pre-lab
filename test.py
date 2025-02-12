@@ -8,6 +8,8 @@ import subprocess
 test_folder = ".test"
 
 
+
+
 def copy_files(exe_name):
     shutil.copyfile(f"{exe_name}/diagram.json", f"{test_folder}/diagram.json")
     shutil.copyfile(f"{exe_name}/test.yaml", f"{test_folder}/test.yaml")
